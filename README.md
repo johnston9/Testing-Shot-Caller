@@ -109,7 +109,9 @@ Security measures prevent unauthorised users from accessing Project URLs they do
 The site is responsive to all screen sizes and the images respond in proportion. <br>
 
 ## Features testing
-All Features testing is covered on the Shot Caller Frontend Testing page. [Testing](https://github.com/johnston9/shot-caller/blob/main/TESTING.md)
+You may find all testing coverage here.
+[Shot Caller Testing](https://github.com/johnston9/Testing-Shot-Caller/blob/main/TESTING.md)
+<br>
 
 [Back to Table of Content](#table-of-content)
 
