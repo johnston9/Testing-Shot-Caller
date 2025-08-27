@@ -1405,13 +1405,13 @@ Description: This section contains the Scene Breakdown.
 <img src="documentation/readme-images/scenesTVbreak2.png" width="50%">
 </h2>
 
-#### Scene Characters/BG
+#### Scene Characters
 - Description: This section contains the Scene's Characters and Background information. Admin can add/edit Scene Characters and BG here. Characters are added by a dropdown containing all Characters added to the Project. Selecting a Character automatically fills it's Role and Number input.<br>
-Characters can be added to the Project on the "Add Character" form in the "Characters" feature or here in the "Add New Characters "form.
+Characters can be added to the Project on the "Add Character" form in the "Characters" feature or here in the "Add New Characters "form.<br>
 
 - Use Case: View the Scene Characters/Bg Section<br>
 
-  1. Click on Characters/Bg tab on the Scene page to view the Scene Characters/Bg Section with the currenly added Characters and Background.
+  1. Click on Characters/Bg tab on the Scene page to view the Scene Characters/Bg Section with the currenly added Characters and Background.<br>
 
 <p align="center"> <strong>The Characters/Bg Section</strong></p>
 <h2 align="center">
@@ -1430,6 +1430,7 @@ Characters can be added to the Project on the "Add Character" form in the "Chara
     Select Number "44" from the "Number 31 - 100" dropdown.<br>
   5. Click "Create" and the Character Fritz is added to the database with a Character Number of "44" and the form is cleared.<br>
   6. A success message displays saying "Character Fritz Aded".<br>
+  7. The Number 44 is no longer available in the Dropdown.<br>
 
 
 <p align="center"> <strong>Open the "Add New Characters" form and add Role "Fritz"</strong></p>
@@ -1495,8 +1496,8 @@ Characters can be added to the Project on the "Add Character" form in the "Chara
 - Use Case: Delete Scene Characters<br>
 
   1. Click on "3 Dots Edit/Delete" icon to open the Edit/Delete mini menu and select Delete.<br>
-  2. A pop-up displays on top of the page asking to confirm the Delete.
-  3. Click "Cancel" to cancel or "Delete" to delete.
+  2. A pop-up displays on top of the page asking to confirm the Delete.<br>
+  3. Click "Cancel" to cancel or "Delete" to delete.<br>
 
 <p align="center"> <strong>The Edit/Delete mini menu</strong></p>
 <h2 align="center">
@@ -1512,7 +1513,63 @@ Characters can be added to the Project on the "Add Character" form in the "Chara
 
   1. Scene Characters' "Role" and "Number" fields cannot be edited but "Costume" can. See Scene Character Costume below.<br>
 
-#### Scene Character Costume
+- Use Case: Add New Characters for the Project in the TV version<br>
+
+  1. Click on "Add Character" tab on the Characters/Bg Section to open the "Add Characters" form.<br>
+  2. Click on "Add New Characters" tab to open the Add New Characters form.<br>
+  3. Enter the "Role" name, e.g. "Jen".<br>
+  4. Select a Character number from one of the three inputs boxes.<br>
+    Clicking on "Number 1 - 30" opens a dropdown with all the current unused "1 - 30" Numbers.<br>
+    Clicking on "Number 31 - 100" opens a dropdown with all the current unused "31 - 100" Numbers.<br>
+    Clicking on "Number 101 - 200" opens a dropdown with all the current unused "101 - 200" Numbers.<br>
+    Select Number "32" from the "Number 31 - 100" dropdown.<br>
+  5. Click "Create" and the Character Jen is added to the database with a Character Number of "32" and the form is cleared.<br>
+  6. A success message displays saying "Character Jen Aded".<br>
+  7. The Number 32 is no longer available in the Dropdown.<br>
+
+
+<p align="center"> <strong>Add Role "Jen" Number 32</strong></p>
+<h2 align="center">
+<img src="documentation/readme-images/scenesTVcharadd1.png" width="50%">
+</h2>
+
+<p align="center"> <strong>32 No Longer Available in Dropdown</strong></p>
+<h2 align="center">
+<img src="documentation/readme-images/scenesTVcharadd2.png" width="50%">
+</h2>
+
+- Use Case: Add Characters to the Scene in the TV version<br>
+
+  1. Click on "Add Character" tab on the Characters/Bg Section to open the "Add Characters" form which contains the "Add Scene Character" form below the "Add New Characters" tab.<br>
+  2. Click on the "Select" button to open the scrollable Dropdown menu of currrently added Project Characters.<br>
+  3. Click on "Jen", the Character added in the Use Case above.<br>
+  4. The Role and Number inputs are automatically filled with Jen's info.<br>
+  4. "Jen" is added to the Scene Charcters below and the form is cleared to allow the next Character to be added.<br>
+  5. A success message displays saying "Character Jen Aded".<br>
+  6. After the page is refreshed the Character "Jen" will be displayed in ascending "Number" order like the rest of the Characters.<br>
+
+<p align="center"> <strong>Select the newly Added Jen and the Role and Number Inputs are Automatically filled</strong></p>
+<h2 align="center">
+<img src="documentation/readme-images/scenesTVcharadd3.png" width="50%">
+</h2>
+
+<p align="center"> <strong>Jen Added</strong></p>
+<h2 align="center">
+<img src="documentation/readme-images/scenesTVcharadd4.png" width="50%">
+</h2>
+
+- Use Case: Delete Scene Characters - TV version<br>
+
+  1. Click on Jen's "3 Dots Edit/Delete" icon to open the Edit/Delete mini menu and select Delete.<br>
+  2. A pop-up displays on top of the page asking to confirm the Delete.<br>
+  3. Click "Cancel" to cancel or "Delete" to delete.<br>
+
+<p align="center"> <strong>Jen Deleted</strong></p>
+<h2 align="center">
+<img src="documentation/readme-images/scenesTVCharBGdel.png" width="50%">
+</h2>
+
+#### Scene Character Costume Edit
 Description: 
 - Use Case: Edit Scene Characters' Costumes<br>
 
@@ -1536,6 +1593,21 @@ Description:
 <h2 align="center">
 <img src="documentation/readme-images/fritz22.png" width="50%">
 </h2>
+
+- Use Case: Edit Scene Characters' Costumes - TV version<br>
+
+  1. Click on a character's, "3 Dots Edit/Delete" icon to open the Edit/Delete mini menu and select Edit, eg "Jen".<br>
+  2. The "Add/Edit Costume" form opens.<br>
+  3. Enter a value "1" and submit.<br>
+  4. The value "1" is added to Jen's Costume.<br>
+  5. A success message displays saying - "Jens's Costume Updated".<br>
+
+<p align="center"> <strong>Value "1" Add to Jen's Costume</strong></p>
+<h2 align="center">
+<img src="documentation/readme-images/scenesTVcharedit.png" width="50%">
+</h2>
+
+#### Scene BG Add Edit and Delete
 
 - Use Case: Add BG/Standings to the Scene<br>
 
@@ -1574,9 +1646,9 @@ Description:
 - Use Case: Delete Scene BG/Standings<br>
 
   1. Click on the item "Bar Drinkers" "3 Dots Edit/Delete" icon to open the Edit/Delete mini menu and select Delete.<br>
-  2. A pop-up displays on top of the page asking to confirm the Delete.
-  3. Click "Cancel" to cancel or "Delete" to delete.
-  4. The item "Bar Drinkers" is deleted.
+  2. A pop-up displays on top of the page asking to confirm the Delete.<br>
+  3. Click "Cancel" to cancel or "Delete" to delete.<br>
+  4. The item "Bar Drinkers" is deleted.<br>
 
 <p align="center"> <strong>The Pop-up to Confirm Delete</strong></p>
 <h2 align="center">
@@ -1586,6 +1658,42 @@ Description:
 <p align="center"> <strong>Bar Drinkers Deleted</strong></p>
 <h2 align="center">
 <img src="documentation/readme-images/scenebgdel2.png" width="50%">
+</h2>
+
+- Use Case: Add BG/Standings to the Scene - TV version<br>
+
+  1. Click on "Add BG/Standings" tab on the Characters/Bg Section to open the "Add BG/Standings" form .<br>
+  2. Input the item, e.g. "7 Sailors" and submit.
+  4. "7 Sailors" is added to the Scene BG/Standings below and the form is cleared to allow the next BG item to be added.<br>
+  5. A success message displays saying "BG Sailors Added".<br>
+
+<p align="center"> <strong>Sailors Added</strong></p>
+<h2 align="center">
+<img src="documentation/readme-images/scenesTVBGadd.png" width="50%">
+</h2>
+
+- Use Case: Edit BG/Standings - TV version<br>
+
+  1. Click on "3 Dots Edit" tab on a Characters/Bg item to open the Edit BG/Standings form .<br>
+  2. Update the item, e.g. "8 Sailors" and submit.
+  4. "7 Sailors" is updated to "8"<br>
+  5. A success message displays saying "BG Sailors Updated".<br>
+
+<p align="center"> <strong>The Changes</strong></p>
+<h2 align="center">
+<img src="documentation/readme-images/scenesTVBGedit.png" width="50%">
+</h2>
+
+- Use Case: Delete Scene BG/Standings - TV version<br>
+
+  1. Click on the item "Sailors" "3 Dots Edit/Delete" icon to open the Edit/Delete mini menu and select Delete.<br>
+  2. A pop-up displays on top of the page asking to confirm the Delete.
+  3. Click "Cancel" to cancel or "Delete" to delete.
+  4. The item "Sailors" is deleted.
+
+<p align="center"> <strong>Sailors Deleted</strong></p>
+<h2 align="center">
+<img src="documentation/readme-images/scenesTVCharBGdel.png" width="50%">
 </h2>
 
 #### Scene Script
