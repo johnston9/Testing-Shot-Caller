@@ -1701,7 +1701,7 @@ Description: View, Download, Print or Change the Scene Script<br>
 
 - Use Case: View the Scene Script<br>
 
-  1. Click on Script tab on the Scene page to view the new Script "S 11 No 2 Script" added above. If no Script has been added yet a message will display advising to go to the Scenes Workspace page and click the Script tab on top to view the entire Script.
+  1. Click on Script tab on the Scene page to view the new Script "S 11 No 2 Script" added above, its database name displaying "S_11_No_2_Script_swbjdg". If no Script has been added yet a message will display advising to go to the Scenes Workspace page and click the Script tab on top to view the entire Script.<br>
 
 <p align="center"> <strong>Scene Script - "S 11 No 2 Script"</strong></p>
 <h2 align="center">
@@ -1710,15 +1710,15 @@ Description: View, Download, Print or Change the Scene Script<br>
 
 - Use Case: View the Scene Script in it's original PDF format<br>
 
-  1. Click on the "Click here to View the original Script file" link on the Script page.
-  2. The Script opens in a new tab in it's original PDF format.
+  1. Click on the "Click here to View the original Script file" link on the Script page.<br>
+  2. The Script opens in a new tab in it's original PDF format.<br>
 
 - Use Case: Download the Scene Script<br>
 
-  1. Click on Download icon on the Script page.
-  2. The Script is downloaded to the User's device.
+  1. Click on Download icon on the Script page.<br>
+  2. The Script is downloaded to the User's device.<br>
 
-- Use Case: Print the Scene Script<br>
+- Use Case: Print the Scene Script
 
   1. Click on Print icon on the Script page.
   2. The Script is printed out on the User's printer.
@@ -1727,10 +1727,10 @@ Description: View, Download, Print or Change the Scene Script<br>
 
   1. Click on Script tab on the Scene page to open the new Script "S 11 No 2 Script" added above.
   2. Click on the "Add/Change Script" tab.
-  3. The Add/Change Script form opens with the "Database" name of the current Script "S_11_No_2_Script_swbjdg" displaying and a "Change Script" tab underneath.  If no Script has been added yet an "Upload Script" message will display instead.
-  4. Click "Change Script" or "Upload Script" to open the Desktop files.
+  3. The Add/Change Script form opens with the "Database" name of the current Script "S_11_No_2_Script_swbjdg" displaying and a "Click Here to Select Latest Script File" tab underneath. If no Script is add it will say "Upload Script".
+  4. Click the "Click Here to Select the Latest Script File" tab to open the Desktop files.
   5. Select the desired file "S 11 No 3 Script" and the "Desktop" name of the selected file "S 11 No 3 Script.pdf" displays in place of the previous "Database" one.
-  6. Click Upload and the Script is changed in the backend.
+  6. Click Upload and the Script is uploaded.
   7. A success message displays saying - "S 11 No 3 Script Added".<br>
   8. Click Script tab to view the newly uploaded Script "S 11 No 3 Script" with the new database File name "S_11_No_3_Script_i8tapb" displaying.
 
@@ -1754,12 +1754,37 @@ Description: View, Download, Print or Change the Scene Script<br>
 <img src="documentation/readme-images/scenescriptno3.png" width="50%">
 </h2>
 
+- Use Case: View the Scene Script - TV version<br>
+
+  1. Click on Script tab on the Scene page to view the new Script "E1 S4" added above. If no Script has been added yet a message will display advising to go to the Scenes Workspace page and click the Script tab on top to view the entire Script.
+
+<p align="center"> <strong>Scene Script - "E1 S4"</strong></p>
+<h2 align="center">
+<img src="documentation/readme-images/scenesTVscenescript1.png" width="50%">
+</h2>
+
+- Use Case: Add/Change the Scene Script - TV version<br>
+
+  1. Click on Script tab on the Scene page to open the new Script "E1 S4" added above, its database name displaying "E1_S4_za3yrv".<br>
+  2. Click on the "Add/Change Script" tab.<br>
+  3. The Add/Change Script form opens with the "Database" name of the current Script "E1_S4_za3yrv" displaying and a "Click Here to Select Latest Script File" tab underneath. If no Script is add it will say "Upload Script".
+  4. Click the "Click Here to Select the Latest Script File" tab to open the Desktop files.
+  5. Select the desired file "E1 S4 latest" and the "Desktop" name of the selected file "E1 S4 latest.pdf" displays in place of the previous "Database" one.<br>
+  6. Click Upload and the Script is uploaded..<br>
+  7. A success message displays saying - "E1 S4 latest Added".<br>
+  8. Click Script tab to view the newly uploaded Script "E1 S4 latest" with the new database File name "S_11_No_3_Script_i8tapb" displaying.<br>
+
+<p align="center"> <strong>The Updated Script</strong></p>
+<h2 align="center">
+<img src="documentation/readme-images/scenesTVscenescript2.png" width="50%">
+</h2>
+
 #### Scene Storyboard
 Description: View, Download, Print or Change the Scene Storyboard and View or Add the Storyboard URL<br>
 
 - Use Case: View the Scene Storyboard<br>
 
-  1. Click on Storyboard tab on the Scene page to open the Storyboard page in which the current Storyboard displays if one has been added.
+  1. Click on the Storyboard tab on the Scene page to open the Storyboard page in which the current Storyboard displays if one has been added, as it has been above in the Breakdown Use Case.
 
 <p align="center"> <strong>Scene Storyboard - "Portrait 6"</strong></p>
 <h2 align="center">
@@ -1768,22 +1793,22 @@ Description: View, Download, Print or Change the Scene Storyboard and View or Ad
 
 - Use Case: Download the Scene Storyboard<br>
 
-  1. Click on Download icon on the Storyboard page.
+  1. Click on the Download icon on the Storyboard page.
   2. The Storyboard is downloaded to the User's device.
 
 - Use Case: Print the Scene Storyboard<br>
 
-  1. Click on Print icon on the Storyboard page.
+  1. Click on the Print icon on the Storyboard page.
   2. The Storyboard is printed out on the User's printer.
 
 - Use Case: Change the Scene Storyboard<br>
 
-  1. Click on Storyboard tab on the Scene page to open the Storyboard page with the present Storyboard "Portrait6" displaying.
-  2. Click on the "Add Storyboard" tab whether one has been added and is displaying or not.
-  3. The Add/Change Storyboard form opens with the database name of the current Storyboard "portrait6_zkrkp7" displaying and a "Change Storyboard" tab underneath.  If no Storyboard has been added yet an "Upload Storyboard" message will display instead.
-  4. Click "Change Storyboard" or "Upload Storyboard" to open the Desktop files.
+  1. Click on the Storyboard tab on the Scene page to open the Storyboard page with the present Storyboard "portrait6" displaying, with its database name portrait6_zkrkp7.
+  2. Click on the "Add Storyboard" tab.
+  3. The Add/Change Storyboard form opens with the database name of the current Storyboard "portrait6_zkrkp7" displaying and a "Click Here to Select Latest Script File" tab underneath. If no Script has been addd it will say "Upload Storyboard".
+  4. Click "Click Here to Select Latest Script File"  to open the Desktop files.
   5. Select the desired file "Landscape6" and the desktop name of the selected file "Landscape6.pdf" displays in place of the previous one.
-  6. Click Upload and the Storyboard is changed in the backend.
+  6. Click Upload and the new Storyboard is uploaded.
   7. A success message displays saying - "Storyboard Landscape6.pdf Added".<br>
   8. Click Storyboard tab to view the newly uploaded Storyboard "Landscape6" with the new database File name "landscape6_nqxnys" displaying above.
 
@@ -1809,7 +1834,7 @@ Description: View, Download, Print or Change the Scene Storyboard and View or Ad
 
 - Use Case: View the Scene Storyboard Video<br>
 
-  1. Click on Storyboard URL tab on the Storyboard page.
+  1. Click on the Storyboard URL tab on the Storyboard page.
   2. The page opens with the video ready to play.
 
 <p align="center"> <strong>Scene Storyboard Video</strong></p>
@@ -1819,7 +1844,62 @@ Description: View, Download, Print or Change the Scene Storyboard and View or Ad
 
 - Use Case: Change the Scene Storyboard Video<br>
 
-  1. Click on Storyboard URL tab on the Storyboard page.
+  1. Click on the Storyboard URL tab on the Storyboard page.
+  2. Click on the "Add/Change URL" tab.
+  3. The Add/Change Storyboard URL form opens with the the current Storyboard URL displaying in the input box if one has been previously added.
+  4. Enter the new Storyboard URL and submit.
+  5. A success message displays saying - "Storyboard URL Added" and the Scene page is loaded.<br>
+  8. Click Storyboard tab then the Storyboard URL tab to view the new video.
+
+- Use Case: View and Download the Scene Storyboard Templates<br>
+
+  1. Click on the Templates tab on the Storyboard page and the 4 templates display.
+  2. Click on a template's open tab and it opens.
+  3. Click download and it downloads.
+
+<p align="center"> <strong>Templates</strong></p>
+<h2 align="center">
+<img src="documentation/readme-images/scenesStoryTemplate1.png" width="50%">
+</h2>
+
+<p align="center"> <strong>Templates Downloaded</strong></p>
+<h2 align="center">
+<img src="documentation/readme-images/scenesStoryTemplate2.png" width="50%">
+</h2>
+
+- Use Case: View the Scene Storyboard - TV version<br>
+
+  1. Click on the Storyboard tab on the Scene page to open the Storyboard page in which the current Storyboard displays if one has been added as it has been above in the Breakdown Use Case.
+
+<p align="center"> <strong>Scene Storyboard - "E4 S1 2nd"</strong></p>
+<h2 align="center">
+<img src="documentation/readme-images/scenesTVstory1.png" width="50%">
+</h2>
+
+- Use Case: Change the Scene Storyboard - TV version<br>
+
+  1. Click on the Storyboard tab on the Scene page to open the Storyboard page with the present Storyboard "E1 S4 - 2nd" displaying, with its database name E1_S4_-_2nd_hrsetq.
+  2. Click on the "Add Storyboard" tab.
+  3. The Add Storyboard form opens with the database name of the current Storyboard "E1_S4_-_2nd_hrsetq" displaying and a "Click Here to Select Latest Script File" tab underneath. If no Script has been addd it will say "Upload Storyboard".
+  4. Click "Click Here to Select Latest Script File"  to open the Desktop files.
+  5. Select the desired file " E1 S4 - Story 2" and the desktop name of the selected file " E1 S4 - Story 2.pdf" displays in place of the previous one.
+  6. Click Upload and the new Storyboard is uploaded.
+  7. A success message displays saying - "Storyboard  E1 S4 - Story 2.pdf Added".<br>
+  8. Click Storyboard tab to view the newly uploaded Storyboard " E1 S4 - Story 2 with the new database File name "E1_S4_-_Story_2_blw7lq" displaying above.
+
+<p align="center"> <strong>The New Storyboard</strong></p>
+<h2 align="center">
+<img src="documentation/readme-images/scenesTVstory2.png" width="50%">
+</h2>
+
+- Use Case: View the Scene Storyboard Video - TV version<br>
+
+  1. Click on the Storyboard URL tab on the Storyboard page.
+  2. The page opens with the video ready to play.
+
+- Use Case: Change the Scene Storyboard Video - TV version<br>
+
+  1. Click on the Storyboard URL tab on the Storyboard page.
   2. Click on the "Add/Change URL" tab.
   3. The Add/Change Storyboard URL form opens with the the current Storyboard URL displaying in the input box if one has been previously added.
   4. Enter the new Storyboard URL and submit.
@@ -1835,7 +1915,7 @@ Description: View and Add the Shotlist<br>
 
 <p align="center"> <strong>Shotlist Page</strong></p>
 <h2 align="center">
-<img src="documentation/readme-images/nnnnn.png" width="50%">
+<img src="documentation/readme-images/shotlistview.png" width="50%">
 </h2>
 
 - Use Case: Add a Shot<br>
@@ -1843,14 +1923,15 @@ Description: View and Add the Shotlist<br>
   1. Click on the "Add Shot" tab on the Shotlist page and the "Add Shot" form opens.<br>
   2. Input the fields, e.g. - Description - "Jack looks on" and add a sketch or image, e.g. "shotsketch" then submit. <br>
   3. A Success message displays and the Shot is added.
-  4. Refresh the page and the Shot is ordered correctly and all the imputs display and the image "shotsketch" is added.<br>
+  4. The Shot is ordered correctly, as the number input was 6
+  it was correctly changed to 5, and all the imputs display and the image "shotsketch" is added.<br>
 
 <p align="center"> <strong>Add the Inputs</strong></p>
 <h2 align="center">
 <img src="documentation/readme-images/shotadd1.png" width="50%">
 </h2>
 
-<p align="center"> <strong>Success Message and Shot "6" is Added</strong></p>
+<p align="center"> <strong>Shot is Added</strong></p>
 <h2 align="center">
 <img src="documentation/readme-images/shotadd2.png" width="50%">
 </h2>
@@ -1873,7 +1954,7 @@ Description: View and Add the Shotlist<br>
 <img src="documentation/readme-images/shotimage.png" width="50%">
 </h2>
 
-- Use Case: View the Shot and Info in Mobile view<br>
+- Use Case: View a Shot and Info in Mobile view<br>
 
   1. Click on the "Info" tab in Mobile view and the "Info" component opens displaying the Info.<br>
 
@@ -1883,6 +1964,88 @@ Description: View and Add the Shotlist<br>
 </h2>
 
 - Use Case: Edit a Shot<br>
+
+  1. Click on the "3 Dots Edit/Delete menu" tab and select Edit on the Shot and the "Edit Shot" form opens.<br>
+  2. Input the new changes, e.g. - Description - "Jack looks on smiling" and add a new sketch or image then submit. <br>
+  3. A Success message displays and the Shot is updated including the new image "shotsketch - 2".<br>
+
+<p align="center"> <strong>Shot Updated</strong></p>
+<h2 align="center">
+<img src="documentation/readme-images/shotedit2.png" width="50%">
+</h2>
+
+- Use Case: Delete a Shot<br>
+
+  1. Click on the "3 Dots Edit/Delete menu" tab on Shot "6" and select Delete. <br>
+  2. A Modal opens asking to confirm Delete or Cancel.
+  3. Click "Cancel" and the Shot is not deleted and the Edit/Delete menu disappears. <br>
+  4. Click "Delete" and the Shot is deleted.<br>
+
+<p align="center"> <strong>Modal</strong></p>
+<h2 align="center">
+<img src="documentation/readme-images/shotdel1.png" width="50%">
+</h2>
+
+<p align="center"> <strong>Shot Deleted</strong></p>
+<h2 align="center">
+<img src="documentation/readme-images/shotdel2.png" width="50%">
+</h2>
+
+#### Shotlist TV Version
+- Use Case: View the Scene Shotlist - TV Version<br>
+
+  1. Click on Shotlist tab on the Scene page to open the Shotlist page with the "Add Shot" tab on top and displaying all the currently added shots.<br>
+
+<p align="center"> <strong>Shotlist Page</strong></p>
+<h2 align="center">
+<img src="documentation/readme-images/shotview.png" width="50%">
+</h2>
+
+- Use Case: Add a Shot - TV Version<br>
+
+  1. Click on the "Add Shot" tab on the Shotlist page and the "Add Shot" form opens.<br>
+  2. Input the fields, e.g. - Description - "Jack looks on" and add a sketch or image, e.g. "shotsketch" then submit. <br>
+  3. A Success message displays and the Shot is added.
+  4. Refresh the page and the Shot is ordered correctly and all the imputs display and the image "shotsketch" is added.<br>
+
+<p align="center"> <strong>Add the Inputs</strong></p>
+<h2 align="center">
+<img src="documentation/readme-images/shotadd1.png" width="50%">
+</h2>
+
+<p align="center"> <strong>Success Message and Shot "6" is Added</strong></p>
+<h2 align="center">
+<img src="documentation/readme-images/shotadd2.png" width="50%">
+</h2>
+
+- Use Case: View the Extra Info - TV Version<br>
+
+  1. Click on the "Info" tab and the "Extra Info" component opens with all the imputted info.<br>
+
+<p align="center"> <strong>Extra Info</strong></p>
+<h2 align="center">
+<img src="documentation/readme-images/shotinfo.png" width="50%">
+</h2>
+
+- Use Case: View the Sketch/Image - TV Version<br>
+
+  1. Click on the "Image" tab and the "Image" component opens displaying the Image.<br>
+
+<p align="center"> <strong>Image</strong></p>
+<h2 align="center">
+<img src="documentation/readme-images/shotimage.png" width="50%">
+</h2>
+
+- Use Case: View the Shot and Info in Mobile view - TV Version<br>
+
+  1. Click on the "Info" tab in Mobile view and the "Info" component opens displaying the Info.<br>
+
+<p align="center"> <strong>Mobile view</strong></p>
+<h2 align="center">
+<img src="documentation/readme-images/shotmo.png" width="50%">
+</h2>
+
+- Use Case: Edit a Shot - TV Version<br>
 
   1. Click on the "3 Dots Edit/Delete menu" tab and select Edit on the Shot and the "Edit Shot" form opens.<br>
   2. Input the new changes, e.g. - Description - "Jack looks on smiling" and add a new sketch or image then submit. <br>
@@ -1898,7 +2061,7 @@ Description: View and Add the Shotlist<br>
 <img src="documentation/readme-images/shotedit2.png" width="50%">
 </h2>
 
-- Use Case: Delete a Shot<br>
+- Use Case: Delete a Shot - TV Version<br>
 
   1. Click on the "3 Dots Edit/Delete menu" tab on Shot "6" and select Delete. <br>
   2. A Modal opens asking to confirm Delete or Cancel.
