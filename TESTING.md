@@ -1998,24 +1998,24 @@ Description: View and Add the Shotlist<br>
 
 <p align="center"> <strong>Shotlist Page</strong></p>
 <h2 align="center">
-<img src="documentation/readme-images/shotview.png" width="50%">
+<img src="documentation/readme-images/scenesTVshotview.png" width="50%">
 </h2>
 
 - Use Case: Add a Shot - TV Version<br>
 
   1. Click on the "Add Shot" tab on the Shotlist page and the "Add Shot" form opens.<br>
-  2. Input the fields, e.g. - Description - "Jack looks on" and add a sketch or image, e.g. "shotsketch" then submit. <br>
+  2. Input the fields, e.g. - Description - "Benny talks to Donzy" and add a sketch or image, e.g. "shotsketch" then submit. <br>
   3. A Success message displays and the Shot is added.
-  4. Refresh the page and the Shot is ordered correctly and all the imputs display and the image "shotsketch" is added.<br>
+  4. The Shot is ordered correctly, -"5" and all the imputs display and the image "shotsketch" is added.<br>
 
 <p align="center"> <strong>Add the Inputs</strong></p>
 <h2 align="center">
-<img src="documentation/readme-images/shotadd1.png" width="50%">
+<img src="documentation/readme-images/scenesTVshotadd1.png" width="50%">
 </h2>
 
-<p align="center"> <strong>Success Message and Shot "6" is Added</strong></p>
+<p align="center"> <strong>Shot 5 is Added</strong></p>
 <h2 align="center">
-<img src="documentation/readme-images/shotadd2.png" width="50%">
+<img src="documentation/readme-images/scenesTVshotadd2.png" width="50%">
 </h2>
 
 - Use Case: View the Extra Info - TV Version<br>
@@ -2024,7 +2024,7 @@ Description: View and Add the Shotlist<br>
 
 <p align="center"> <strong>Extra Info</strong></p>
 <h2 align="center">
-<img src="documentation/readme-images/shotinfo.png" width="50%">
+<img src="documentation/readme-images/scenesTVshotinfo.png" width="50%">
 </h2>
 
 - Use Case: View the Sketch/Image - TV Version<br>
@@ -2036,45 +2036,32 @@ Description: View and Add the Shotlist<br>
 <img src="documentation/readme-images/shotimage.png" width="50%">
 </h2>
 
-- Use Case: View the Shot and Info in Mobile view - TV Version<br>
-
-  1. Click on the "Info" tab in Mobile view and the "Info" component opens displaying the Info.<br>
-
-<p align="center"> <strong>Mobile view</strong></p>
-<h2 align="center">
-<img src="documentation/readme-images/shotmo.png" width="50%">
-</h2>
-
 - Use Case: Edit a Shot - TV Version<br>
 
   1. Click on the "3 Dots Edit/Delete menu" tab and select Edit on the Shot and the "Edit Shot" form opens.<br>
-  2. Input the new changes, e.g. - Description - "Jack looks on smiling" and add a new sketch or image then submit. <br>
-  3. A Success message displays and the Shot is updated including the new image "shotsketch -2".<br>
-
-<p align="center"> <strong>Add the Inputs</strong></p>
-<h2 align="center">
-<img src="documentation/readme-images/shotedit1.png" width="50%">
-</h2>
+  2. Input the new changes, e.g. - Description - "Benny speaks with Donzy" and add a new sketch or image then submit. <br>
+  3. A Success message displays and the Shot is updated including the new image.<br>
 
 <p align="center"> <strong>Success Message and Shot Updated</strong></p>
 <h2 align="center">
-<img src="documentation/readme-images/shotedit2.png" width="50%">
+<img src="documentation/readme-images/scenesTVshotedit1.png" width="50%">
 </h2>
 
 - Use Case: Delete a Shot - TV Version<br>
 
-  1. Click on the "3 Dots Edit/Delete menu" tab on Shot "6" and select Delete. <br>
+  1. Click on the "3 Dots Edit/Delete menu" tab on Shot "5" and select Delete. <br>
   2. A Modal opens asking to confirm Delete or Cancel.
   3. Click "Cancel" and the Shot is not deleted and the Edit/Delete menu disappears. <br>
   4. Click "Delete" and the Shot is deleted.<br>
 
 <p align="center"> <strong>Modal</strong></p>
 <h2 align="center">
-<img src="documentation/readme-images/shotdel1.png" width="50%">
+<img src="documentation/readme-images/scenesTVshotdel1.png" width="50%">
 </h2>
-#<p align="center"> <strong>Shot "6" Deleted</strong></p>
+
+<p align="center"> <strong>Shot "6" Deleted</strong></p>
 <h2 align="center">
-<img src="documentation/readme-images/shotdel2.png" width="50%">
+<img src="documentation/readme-images/scenesTVshotdel2.png" width="50%">
 </h2>
 
 #### Scenes Workspaces
