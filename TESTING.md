@@ -1,11 +1,4 @@
-## Features - Usage and Testing
-
-<p align="center"> <strong>xxx</strong></p>
-<h2 align="center">
-<img src="documentation/readme-images/home6.png" width="50%">
-</h2>
-
-## Features
+# TESTING
 
 ## The Production Features
 
@@ -14,7 +7,7 @@ Description: The admin and superadmin can register new Users and change their Pe
 
 - Use Case: Register Users<br>
 
-  Action: Access User Registration from the Crew/Cast Management tab to find a Permissions select menu.<br>
+  1. Click on the "Manage Users" tab on the Home page. Access User Registration from the Crew/Cast Management tab to find a Permissions select menu.<br>
   Result: Registration page opens with the select menu on display.<br>
 
   Action: Register the User by selecting a Permission and enter a Username and Password for the User.<br>
@@ -1974,6 +1967,22 @@ Description: View and Add the Shotlist<br>
 <img src="documentation/readme-images/shotedit2.png" width="50%">
 </h2>
 
+- Use Case: Re-order a Shot <br>
+
+  1. Use Drag and Drop to re-order a Shot, e.g. Move Shot 6 "Jack looks on" to Shot 4.<br>
+  2. Shot "Jack looks on" is now Sho4 4 and all Shots after it are re-ordered and re-numbered correctly.<br>
+  3. A Success message displays and the Shot is updated including the new image.<br>
+
+<p align="center"> <strong>Before Shot Moved</strong></p>
+<h2 align="center">
+<img src="documentation/readme-images/shotDrag1.png" width="50%">
+</h2>
+
+<p align="center"> <strong>After Shot Moved</strong></p>
+<h2 align="center">
+<img src="documentation/readme-images/shotDrag2.png" width="50%">
+</h2>
+
 - Use Case: Delete a Shot<br>
 
   1. Click on the "3 Dots Edit/Delete menu" tab on Shot "6" and select Delete. <br>
@@ -2059,7 +2068,7 @@ Description: View and Add the Shotlist<br>
 <img src="documentation/readme-images/scenesTVshotdel1.png" width="50%">
 </h2>
 
-<p align="center"> <strong>Shot "6" Deleted</strong></p>
+<p align="center"> <strong>Shot Deleted</strong></p>
 <h2 align="center">
 <img src="documentation/readme-images/scenesTVshotdel2.png" width="50%">
 </h2>
@@ -2160,6 +2169,112 @@ Description: Collorate on Scenes by department through Posts with Images<br>
 </h2>
 
 - Use Case: Delete a Post from the Post page<br>
+
+  1. Click the "3 Dots Edit/Delete" icon and select the delete icon.<br>
+  2. A dropdown opens asking to confirm delete.<br>
+  3. Select Delete and a success message displays and the Post is deleted.<br>
+
+<p align="center"> <strong>Post Deleted</strong></p>
+<h2 align="center">
+<img src="documentation/readme-images/scenewodelpost.png" width="50%">
+</h2>
+
+#### Scenes Workspaces - TV Version
+Description: Collorate on Scenes by department through Posts with Images<br>
+
+- Use Case: View the Scenes Workspace see how may Posts are in each Department both Read and Unread - TV version.<br>
+
+  1. Click on a Scene and the "Scenes Workspace" and the Scene page opens with the Workspace displaying and the "Workspace Guide" on top.<br>
+  2. In all the Departments the number of Read and Unread Posts display. <br>
+
+<p align="center"> <strong>Scenes Workspace</strong></p>
+<h2 align="center">
+<img src="documentation/readme-images/sceneworkview.png" width="50%">
+</h2>
+
+- Use Case: View a Department Category's Posts - TV version<br>
+
+  1. Click a Department Category, e.g. Camera Workspace<br>
+  2. That Department Category's Posts page opens with the "Add Post" tab on top and the Posts displaying below.<br>
+
+<p align="center"> <strong>Camera Workspace Posts page</strong></p>
+<h2 align="center">
+<img src="documentation/readme-images/sceneworkposts.png" width="50%">
+</h2>
+
+- Use Case: Find a Post in the Search bar by it's title or the owner's name - TV version<br>
+
+  1. Input a title in the Search Bar, eg "window".<br>
+  2. All Posts with the word "window" are returned.<br>
+
+<p align="center"> <strong>"Window" Posts Returned</strong></p>
+<h2 align="center">
+<img src="documentation/readme-images/sceneworkbar.png" width="50%">
+</h2>
+
+- Use Case: Create a Post - TV version<br>
+
+  1. Click the "Add Post" tab.<br>
+  2. The "Create Post" form opens.<br>
+  3. Input the details an upload up to 5 Images and submit.<br>
+  4. A success message displays saying - "Post Added"<br>
+  5. The new Post is added and is displayed with the Title, Content and all 5 Images.<br>
+
+<p align="center"> <strong>Create Form</strong></p>
+<h2 align="center">
+<img src="documentation/readme-images/scenewoaddpost1.png" width="50%">
+</h2>
+
+<p align="center"> <strong>The New Post Displays</strong></p>
+<h2 align="center">
+<img src="documentation/readme-images/scenewoaddpost2.png" width="50%">
+</h2>
+
+- Use Case: Open an Unopend Post to view its details and change its background and text colours to indicate it has been opened - TV version.<br>
+
+  1. Click on an unopened Post, with background Black and text White and Blue.<br>
+  2. The Post opens.<br>
+  3. Returning to the Posts page the background is now White and the text Grey.<br>
+
+<p align="center"> <strong>Closed and Opened Posts</strong></p>
+<h2 align="center">
+<img src="documentation/readme-images/sceneworkposts.png" width="50%">
+</h2>
+
+- Use Case: Edit a Post from the Post Top on the Posts page - TV version<br>
+
+   1. Click on the "Edit/Delete" icon and select Edit.<br>
+  2. The "Edit Post" form opens.<br>
+  3. Input the changes and submit.<br>
+  4. A success message displays saying - "Post Edited"<br>
+  5. The Post displays with the changes.<br>
+
+- Use Case: Delete a Post from the Post Top on the Posts page - TV version<br>
+
+  1. Click the "3 Dots Edit/Delete" icon and select the delete icon.<br>
+  2. A dropdown opens asking to confirm delete.<br>
+  3. Select Delete.<br>
+  4. A success message displays saying - "Post Deleted" and the Post is deleted.<br>
+
+- Use Case: Edit a Post from the Post page - TV version<br>
+
+  1. Click on the "Edit/Delete" icon and select Edit.<br>
+  2. The "Edit Post" form opens.<br>
+  3. Input the changes including the 5 Images and submit.<br>
+  4. A success message displays saying - "Post Edited"<br>
+  5. The Post displays with the changes and all new 5 images.<br>
+
+<p align="center"> <strong>Edit Form with Changes</strong></p>
+<h2 align="center">
+<img src="documentation/readme-images/scenewoeditpost1.png" width="50%">
+</h2>
+
+<p align="center"> <strong>The Edited Post</strong></p>
+<h2 align="center">
+<img src="documentation/readme-images/scenewoeditpost2.png" width="50%">
+</h2>
+
+- Use Case: Delete a Post from the Post page - TV version<br>
 
   1. Click the "3 Dots Edit/Delete" icon and select the delete icon.<br>
   2. A dropdown opens asking to confirm delete.<br>
