@@ -689,7 +689,12 @@ const CrewInfoEdit = () => {
            } = postData;
 
   useEffect(() => {
-    /* Function to fetch and set the crew info */
+    /* Function to fetch and set the crew info
+    if (host === CLIENT_PROGRAM_HOSTNAME) {
+          const { data } = await axiosReq.get(
+            `/crewinfonew/${crewInfoData?.id}/`
+          );
+    */
     const handleMount = async () => {
       try {
         const { data } = await axiosReq.get(`/crewinfonew/${id}/`);
