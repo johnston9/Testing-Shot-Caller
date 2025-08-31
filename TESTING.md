@@ -486,47 +486,23 @@ Description: View Schedules for an Episode's Shoot Day. Create Schedules by Crea
 
   1. Click on the three Dots edit icon to open the Edit/Delete mini menu and click Edit.<br>
   2. The Edit page opens with the fetched Schedule Scene info in the input boxes<br>
-  3. Make changes and click Edit.<br>
-  4. The Stripboard opens with the changes to that Schedule Scene.<br>
-
-<p align="center"> <strong>Make changes to New Info field</strong></p>
-<h2 align="center">
-<img src="documentation/readme-images/schededit1.png" width="50%">
-</h2>
+  3. Make changes, <br>
+  for scene 2 order 2 change Next to "Move to Hibernia Club.<br>
+  for scene 3 order 3 change Next to "Move to Essex St" and Time to 12 PM.<br>
+  for scene 1 order 4 change Next to "lunch" and Time to 2 PM.<br>
+  5. click Edit
+  6. The Stripboard opens with the changes to that Schedule Scene.<br>
 
 <p align="center"> <strong>Stripboard after Submitting</strong></p>
 <h2 align="center">
-<img src="documentation/readme-images/schededit2.png" width="50%">
+<img src="documentation/readme-images/schedTVedit1.png" width="50%">
 </h2>
 
-- Use Case: Add a Next row with move or break info below a Schedule Scene.<br>
-
-  1. Click on the three Dots edit icon to open the Edit/Delete mini menu and click Edit.<br>
-  2. The Edit page opens with the fetched Schedule Scene info in the input boxes<br>
-  3. Input the new Next info in the Next input box and click Edit.<br>
-  4. The Stripboard opens with the new next Row displaying below that Schedule Scene.<br>
-
-<p align="center"> <strong>Make changes to Next field</strong></p>
-<h2 align="center">
-<img src="documentation/readme-images/schedednext1.png" width="50%">
-</h2>
-
-<p align="center"> <strong>Stripboard after submitting</strong></p>
-<h2 align="center">
-<img src="documentation/readme-images/schedednext2.png" width="50%">
-</h2>
-
-- Use Case: Use the Quick Edit to update the Scene's Next field and Times.<br>
+<!-- - Use Case: Use the Quick Edit to change Next and Times.<br>
 
   1. Click on the Quick Edit button and the Quick Edit form opens.<br>
-  2. Input the new info and click Submit.<br>
-  3. The Stripboard opens with the new info for the Schedule Scene.<br>
-
-- Use Case: Add a Next row with new info below a Schedule Scene from the Quick Edit form.<br>
-
-  1. Click on the Reorder button and the reorder form opens.<br>
-  2. Input the new Next info in the Next input box and click Create.<br>
-  3. The Stripboard opens with the new next Row displaying below that Schedule Scene.<br>
+  2. Input the new Next and Time info and click Create.<br>
+  3. The Stripboard opens with the new info displaying below that Schedule Scene.<br>
 
 <p align="center"> <strong>Make changes to Next field</strong></p>
 <h2 align="center">
@@ -536,7 +512,7 @@ Description: View Schedules for an Episode's Shoot Day. Create Schedules by Crea
 <p align="center"> <strong>Stripboard after submitting</strong></p>
 <h2 align="center">
 <img src="documentation/readme-images/schednext2.png" width="50%">
-</h2>
+</h2> -->
 
 - Use Case: View the Schedule Scene Characters.<br>
 
@@ -545,7 +521,7 @@ Description: View Schedules for an Episode's Shoot Day. Create Schedules by Crea
 
 <p align="center"> <strong>Character Info</strong></p>
 <h2 align="center">
-<img src="documentation/readme-images/charssched.png" width="50%">
+<img src="documentation/readme-images/schedTVcast.png" width="50%">
 </h2>
 
 - Use Case: View the Schedule Scene Info.<br>
@@ -555,7 +531,17 @@ Description: View Schedules for an Episode's Shoot Day. Create Schedules by Crea
 
 <p align="center"> <strong>Scene Info</strong></p>
 <h2 align="center">
-<img src="documentation/readme-images/infosched.png" width="50%">
+<img src="documentation/readme-images/schedTVinfo.png" width="50%">
+</h2>
+
+- Use Case: View the Schedule Scene Characters and Info no mobile.<br>
+
+  1. Click on the Cast and Info buttons in Mobile.<br>
+  2. The Cast Info displays below.<br>
+
+<p align="center"> <strong>Character and Info</strong></p>
+<h2 align="center">
+<img src="documentation/readme-images/schedTVcastinfo.png" width="50%">
 </h2>
 
 ### Callsheets
@@ -581,7 +567,7 @@ Description: View, Create and Edit Callsheets for a Shoot Day.<br>
   5. Click on the tab to open the Callsheet, Day "2 - 06 Jan 2026" with the correct data displaying, e.g. Unit Call 6 AM.<br>
   6. It will also display Company/Crew details if added and the Schedule and Advanced Schedule.
 
-<p align="center"> <strong>The Create Day form</strong></p>
+<p align="center"> <strong>The Create Callsheet form</strong></p>
 <h2 align="center">
 <img src="documentation/readme-images/calladd1.png" width="50%">
 </h2>
@@ -746,6 +732,7 @@ Description: View, Create and Edit Callsheets for a Shoot Day.<br>
 <h2 align="center">
 <img src="documentation/readme-images/callinfo1.png" width="50%">
 </h2>
+
 <p align="center"> <strong>Important, Transport and Department Info Displays</strong></p>
 <h2 align="center">
 <img src="documentation/readme-images/callinfo2.png" width="50%">
@@ -759,19 +746,7 @@ Description: View, Create and Edit Callsheets for a Shoot Day.<br>
 <h2 align="center">
 <img src="documentation/readme-images/callwalk1.png" width="50%">
 </h2>
-<p align="center"> <strong>Walkie Channels Display</strong></p>
-<h2 align="center">
-<img src="documentation/readme-images/callwalk2.png" width="50%">
-</h2>
 
-- Use Case: Add and View Walkie Channels.<br>
-  1. On the Edit page add the Walkie Channel number to each field and submit.<br>
-  2. A success message displays and the Walkie Channels display on the Callsheet .<br>
-
-<p align="center"> <strong>Walkie Channels Added</strong></p>
-<h2 align="center">
-<img src="documentation/readme-images/callwalk1.png" width="50%">
-</h2>
 <p align="center"> <strong>Walkie Channels Display</strong></p>
 <h2 align="center">
 <img src="documentation/readme-images/callwalk2.png" width="50%">
@@ -785,9 +760,216 @@ Description: View, Create and Edit Callsheets for a Shoot Day.<br>
 <h2 align="center">
 <img src="documentation/readme-images/callwalk1.png" width="50%">
 </h2>
+
 <p align="center"> <strong> Display</strong></p>
 <h2 align="center">
 <img src="documentation/readme-images/callwalk2.png" width="50%">
+</h2>
+
+### Callsheets - TV Version
+Description: View, Create and Edit Callsheets for a Shoot Day.<br>
+
+- Use Case: View all Callsheets.<br>
+
+  1. Click on the Callsheets link in the Home page or from the Navbar.<br>
+  1. The Callsheets page displays the list of Episodes.<br>
+  2. Click on an Episode and all its Callsheets display.<br>
+
+<p align="center"> <strong>The Callsheets page</strong></p>
+<h2 align="center">
+<img src="documentation/readme-images/callTVview.png" width="50%">
+</h2>
+
+- Use Case: Create a Callsheet.<br>
+
+  1. On a Schedule page Shoot Day, e.g. Day "2 - 17 Oct 2025" click on the "Create Callsheet" tab.<br>
+  2. The Create Day form displays with the Day and date showing e.g. Day "2 - 17 Oct 2025". <br>
+  3. Input any amount of data, e.g. Unit Call 6 AM and submit".<br>
+  4. The Callsheet is created, a success message displays and the Schedule Day opens
+  now with a "View Callsheet" tab instead of a "Create Callsheet" one.
+  5. Click on the tab to open the Callsheet with the correct day and date, Day "2 - 17 Oct 2025 and with the correct data displaying, e.g. Unit Call 6 AM.<br>
+
+<p align="center"> <strong>The Create Callsheet tab</strong></p>
+<h2 align="center">
+<img src="documentation/readme-images/calTVadd1.png" width="50%">
+</h2>
+
+<p align="center"> <strong>The Create Callsheet form</strong></p>
+<h2 align="center">
+<img src="documentation/readme-images/calTVadd2.png" width="50%">
+</h2>
+
+<p align="center"> <strong>The Success Message and View Callsheet now on the Schedule</strong></p>
+<h2 align="center">
+<img src="documentation/readme-images/calTVadd3.png" width="50%">
+</h2>
+
+<p align="center"> <strong>The Callsheet</strong></p>
+<h2 align="center">
+<img src="documentation/readme-images/calTVadd4.png" width="50%">
+</h2>
+
+- Use Case: Add/Edit and View Callsheet Info by Section.<br>
+
+  1. On the Edit/Delete icon and click the Edit icon.<br>
+  2. The Edit Callsheet form displays. <br>
+  3. Make changes and submit. <br>
+  4. On the Callsheet view the updated info.<br>
+
+- Use Case: Add/Edit and View Crew Calltimes<br>
+  1. In the Crew Calltimes section click on a department, e.g. "Camera". <br>
+  2. The Camera department form opens with all the Callsheet/Main crew members who were added to the Callsheet/Main Crew Camera department.<br/>
+  3. Input a crew members Calltime, e.g. for "DOP" enter 6.15 AM.<br/>
+  4. Press Submit.<br>
+  5. A success message displays.<br>
+  6. On the Callsheet in the Crew Calltimes section click the Camera department.<br>
+  7. The DOP displays with their correct Calltime.<br>
+  8. For crew who are not working that day the option is to either leave their calltime blank or input N/A or similar.<br>
+
+<p align="center"> <strong>DOP Calltime Entered</strong></p>
+<h2 align="center">
+<img src="documentation/readme-images/calTVcrew1.png" width="50%">
+</h2>
+
+<p align="center"> <strong>DOP Calltime on Callsheet</strong></p>
+<h2 align="center">
+<img src="documentation/readme-images/calTVcrew2.png" width="50%">
+</h2>
+
+- Use Case: Use the "SET UNIT CALL" button to set all crew member's Calltimes to the "Unit Call".<br>
+  1. Input a time in the "Unit Call" field, e.g. "6.00 AM".<br>
+  2. Click the "SET UNIT CALL" button.<br/>
+  3. Click on a department to see all Calltimes have been set to 6.00 AM.<br/>
+  4. Change the "DOP" Calltime back to 6.15 AM and change the "Camera Operator's" to N/A.<br>
+  5. Press Submit.<br>
+  6. A success message displays.<br>
+  7. On the Callsheet in the Crew Calltimes section click the Camera department.<br>
+  8. The DOP displays with their correct Calltime "6.15 AM", the Camera Operator with "N/A" and all the other crew have "6.00 AM".<br>
+
+<p align="center"> <strong>Unit Calltime entered</strong></p>
+<h2 align="center">
+<img src="documentation/readme-images/callcrewunit1.png" width="50%">
+</h2>
+<p align="center"> <strong>Correct Calltimes on Callsheet</strong></p>
+<h2 align="center">
+<img src="documentation/readme-images/callcrewunit2.png" width="50%">
+</h2>
+
+- Use Case: Add Cast Calltimes.<br>
+  1. Click the Add Cast button and the Add Cast form opens.<br>
+  2. Select a Character from the dropdown of all Characters added to the project, e.g. "Benny".<br/>
+  3. Benny's info displays in the Selected Cast box which e.g. Actor name: Rick Stone, Makeup time: 10 Minutes, Commute time: 30 Minutes and Contact mobile number: 0862247333. The Pickup Address will be added in the Confirm Pickup Address field.<br/>
+  4. Input the fields<br>
+  5. Press Submit.<br>
+  6. A success message displays and Benny now displays in the "Cast Added" box.<br>
+  7. On the Callsheet in the Cast Calltimes section Benny and all the inputted info displays correctly.<br>
+
+<p align="center"> <strong>Benny Selected and Inputs</strong></p>
+<h2 align="center">
+<img src="documentation/readme-images/callcastadd1.png" width="50%">
+</h2>
+<p align="center"> <strong>Benny Added and Success Message</strong></p>
+<h2 align="center">
+<img src="documentation/readme-images/callcastadd2.png" width="50%">
+</h2>
+<p align="center"> <strong>Benny displays on Callsheet with Info</strong></p>
+<h2 align="center">
+<img src="documentation/readme-images/callcastadd3.png" width="50%">
+</h2>
+<p align="center"> <strong>Add Cast Mobile View</strong></p>
+<h2 align="center">
+<img src="documentation/readme-images/callcastaddmo.png" width="50%">
+</h2>
+<p align="center"> <strong>Cast Call Mobile View</strong></p>
+<h2 align="center">
+<img src="documentation/readme-images/callcastinfomo.png" width="50%">
+</h2>
+
+- Use Case: View the Cast Extra Info.<br>
+  1. Click the Info button.<br>
+  2. The Info displays. <br/>
+
+  <p align="center"> <strong>Extra info on Mobile</strong></p>
+  <h2 align="center">
+  <img src="documentation/readme-images/callcastinfomoinfo.png" width="50%">
+  </h2>
+
+- Use Case: Edit Cast Calltimes.<br>
+  1. On the Callsheet Edit page click the Edit button and the Edit Cast form opens.<br>
+  2. Input the changes, e.g. PU: 6.25 AM, Call: 7.25 AM and Set 8.25 AM and submit.<br/>
+  3. A success message displays and Benny's new Info now displays correctly.<br>
+
+<p align="center"> <strong>Benny's Info Updated and Success Message</strong></p>
+<h2 align="center">
+<img src="documentation/readme-images/callcastedit1.png" width="50%">
+</h2>
+
+- Use Case: Add Background/Standins Calltimes.<br>
+  1. Click the Add BG button and the Add Background/Standins form opens.<br>
+  2. The BG already added displays below. <br/>
+  3. Add the new BG item, e.g. "7 Sailors".<br/>
+  6. Press Submit.<br>
+  6. A success message displays and Sailors now displays in Background Added.<br>
+  7. On the Callsheet in the Background Calltimes section Sailors and all the inputted info display correctly.<br>
+
+<p align="center"> <strong>Inputs</strong></p>
+<h2 align="center">
+<img src="documentation/readme-images/calTVbgadd1.png" width="50%">
+</h2>
+
+<p align="center"> <strong>Sailors Added</strong></p>
+<h2 align="center">
+<img src="documentation/readme-images/calTVbgadd2.png" width="50%">
+</h2>
+
+- Use Case: Edit BG Calltimes.<br>
+  1. On the Callsheet Edit page click the Edit button on the BG item and the Edit BG form opens. Using the Mobile version here to show mobile functionality.<br>
+  2. Input the changes, e.g. add 3 to costume and submit.<br/>
+  3. A success message displays and Clerk's new Info now displays correctly.<br>
+
+<p align="center"> <strong>Clerk's Costume changed</strong></p>
+<h2 align="center">
+<img src="documentation/readme-images/calleditbg1.png" width="50%">
+</h2>
+
+<p align="center"> <strong>Clerk's Info Updated and Success Message</strong></p>
+<h2 align="center">
+<img src="documentation/readme-images/calleditbg2.png" width="50%">
+</h2>
+
+- Use Case: Add Times, Nearest Hospital, Locations, Important, Transport and Department Notes.<br>
+
+  1. On the Edit page add Times, Nearest Hospital, Locations, Important, Transport and Department Notes and submit.<br>
+  2. A success message displays and the Times, Nearest Hospital, Locations, Important, Transport and Department Notes display on the Callsheet.<br>
+
+<p align="center"> <strong>Nearest Hospital, Important, Transport and Department Info Added</strong></p>
+<h2 align="center">
+<img src="documentation/readme-images/calTVaddhos.png" width="50%">
+</h2>
+
+<p align="center"> <strong>Times Added</strong></p>
+<h2 align="center">
+<img src="documentation/readme-images/calTVaddtimes.png" width="50%">
+</h2>
+
+<p align="center"> <strong>Add Locations</strong></p>
+<h2 align="center">
+<img src="documentation/readme-images/calTVaddloc.png" width="50%">
+</h2>
+
+<p align="center"> <strong>Times and Nearest Hospital display</strong></p>
+<h2 align="center">
+<img src="documentation/readme-images/calTVaddtimes2.png" width="50%">
+</h2>
+
+<p align="center"> <strong>Locations display with Schedule below</strong></p>
+<h2 align="center">
+<img src="documentation/readme-images/calTVaddloc2.png" width="50%">
+</h2>
+
+<p align="center"> <strong>Important, Transport and Department Info Displays</strong></p>
+<h2 align="center">
+<img src="documentation/readme-images/calTVaddnotes2.png" width="50%">
 </h2>
 
 ### Budgeting 
