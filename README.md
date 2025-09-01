@@ -69,7 +69,7 @@ There is no installation needed and no requirements for the app. If a User has a
   * [Testing](#testing)
   * [Deployment - (Shot Caller and Shot Caller Production - Front and Backend)](#deployment----shot-caller-and-shot-caller-production---front-and-backend-)
     + [Development platform](#development-platform)
-    + [Repository](#repository)
+    + [Repository](#repository) 
     + [Deploy to Heroku](#deploy-to-heroku)
     + [Requirements for the Shot Caller DRF Backend](#requirements-for-the-shot-caller-drf-backend)
     + [Dependencies for the Shot Caller React Frontend](#dependencies-for-the-shot-caller-react-frontend)
@@ -448,28 +448,45 @@ sqlparse==0.4.2 <br>
 
 ### Dependencies for the Shot Caller React Frontend
 
-"@emailjs/browser": "^3.10.0" <br>
-"@react-google-maps/api": "^2.12.0", <br>
-"@testing-library/jest-dom": "^5.15.0",<br>
-"@testing-library/react": "^11.2.7",<br>
-"@testing-library/user-event": "^12.8.3",<br>
-"axios": "^0.24.0",<br>
-"bootstrap": "^4.6.0",<br>
-"jwt-decode": "^3.1.2",<br>
-"npm": "^8.12.2",<br>
-"react": "^17.0.2",<br>
-"react-bootstrap": "^2.0.2",<br>
-"react-calendar": "^3.7.0",<br>
-"react-datepicker": "^4.5.0",<br>
-"react-dom": "^17.0.2",<br>
-"react-infinite-scroll-component": "^6.1.0",<br>
-"react-router": "^6.3.0",<br>
-"react-router-dom": "^5.2.0",<br>
-"react-scripts": "4.0.3",<br>
-"react-toastify": "^9.0.0",<br>
-"type-fest": "^0.13.1",<br>
-"use-places-autocomplete": "^4.0.0",<br>
-"web-vitals": "^1.1.2"<br>
+"@emailjs/browser": "^3.10.0",
+"@emotion/react": "^11.11.1",
+"@hookform/resolvers": "^3.1.1",
+"@mantine/core": "^6.0.17",
+"@mantine/dates": "^6.0.17",
+"@mantine/form": "^6.0.17",
+"@mantine/hooks": "^6.0.17",
+"@mantine/modals": "^6.0.17",
+"@react-google-maps/api": "^2.12.0",
+"@tabler/icons-react": "^2.29.0",
+"@testing-library/jest-dom": "^5.15.0",
+"@testing-library/react": "^11.2.7",
+"@testing-library/user-event": "^12.8.3",
+"axios": "^0.24.0",
+"bootstrap": "^4.6.0",
+"dayjs": "^1.11.9",
+"html2canvas": "^1.4.1",
+"jspdf": "^2.5.2",
+"jwt-decode": "^3.1.2",
+"mantine-react-table": "^1.0.0",
+"npm": "^8.12.2",
+"react": "^18.2.0",
+"react-bootstrap": "^2.0.2",
+"react-calendar": "^3.7.0",
+"react-datepicker": "^4.5.0",
+"react-dom": "^18.2.0",
+"react-hook-form": "^7.45.2",
+"react-hot-toast": "^2.4.1",
+"react-icons": "^4.10.1",
+"react-infinite-scroll-component": "^6.1.0",
+"react-router": "^6.3.0",
+"react-router-dom": "^5.2.0",
+"react-scripts": "5.0.1",
+"type-fest": "^0.13.1",
+"use-places-autocomplete": "^4.0.0",
+"web-vitals": "^1.1.2",
+"zod": "^3.21.4",
+"react-beautiful-dnd": "^13.1.1",
+"serve": "^14.2.0"
 
 [Back to Table of Content](#table-of-content)
 
