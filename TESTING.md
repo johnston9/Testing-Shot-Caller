@@ -756,14 +756,50 @@ Description: View, Create and Edit Callsheets for a Shoot Day.<br>
   1. On the Edit page add the Location and submit.<br>
   2. A success message displays and the Locations display on the Callsheet .<br>
 
-<p align="center"> <strong> Added</strong></p>
+<p align="center"> <strong>Location Added</strong></p>
 <h2 align="center">
 <img src="documentation/readme-images/callwalk1.png" width="50%">
 </h2>
 
-<p align="center"> <strong> Display</strong></p>
+<p align="center"> <strong>Location Display</strong></p>
 <h2 align="center">
-<img src="documentation/readme-images/callwalk2.png" width="50%">
+<img src="documentation/readme-images/callocs.png" width="50%">
+</h2>
+
+
+- Use Case: View the Schedule.<br>
+  1. The Schedule is automatically added to the Callsheet.<br>
+
+<p align="center"> <strong>Schedule Added</strong></p>
+<h2 align="center">
+<img src="documentation/readme-images/calTVsched1.png" width="50%">
+</h2>
+
+- Use Case: View the Schedule Characters, BG and Info.<br>
+  1. Click the Info and cast links and the Info, Characters and BG display.<br>
+
+<p align="center"> <strong>Schedule Added</strong></p>
+<h2 align="center">
+<img src="documentation/readme-images/calTVsched2.png" width="50%">
+</h2>
+
+- Use Case: View the Advanced Schedule.<br>
+  1. The Advanced Schedule is automatically added to the Callsheet.<br>
+
+<p align="center"> <strong>Advanced Schedule Added</strong></p>
+<h2 align="center">
+<img src="documentation/readme-images/calTVadvsch.png" width="50%">
+</h2>
+
+- Use Case: Use the Send button to send the Callsheet to all revevent Users.<br>
+  1. Click the Send button and the Send component opens displaying
+  the info that will be sent in the email which includes Compant details and
+  the Callsheet URL.<br>
+  2. All Crew members and all Cast for that day will receive the email.
+
+<p align="center"> <strong>Send Component</strong></p>
+<h2 align="center">
+<img src="documentation/readme-images/calTVadvsch.png" width="50%">
 </h2>
 
 ### Callsheets - TV Version
@@ -789,12 +825,12 @@ Description: View, Create and Edit Callsheets for a Shoot Day.<br>
   now with a "View Callsheet" tab instead of a "Create Callsheet" one.
   5. Click on the tab to open the Callsheet with the correct day and date, Day "2 - 17 Oct 2025 and with the correct data displaying, e.g. Unit Call 6 AM.<br>
 
-<p align="center"> <strong>The Create Callsheet tab</strong></p>
+<p align="center"> <strong>The Create Callsheet Tab</strong></p>
 <h2 align="center">
 <img src="documentation/readme-images/calTVadd1.png" width="50%">
 </h2>
 
-<p align="center"> <strong>The Create Callsheet form</strong></p>
+<p align="center"> <strong>The Create Callsheet Form</strong></p>
 <h2 align="center">
 <img src="documentation/readme-images/calTVadd2.png" width="50%">
 </h2>
@@ -973,7 +1009,8 @@ Description: View, Create and Edit Callsheets for a Shoot Day.<br>
 </h2>
 
 ### Budgeting 
-- As this feature is held on the "Shot Caller Production" home app the Budgeting testing is on it's Testing page. [Testing](https://github.com/johnston9/shot-caller-production/blob/main/TESTING.md)<br>
+- As this feature is held on the "Shot Caller Production" home app the Budgeting testing is on it's Testing page. [Testing](https://github.com/johnston9/Testing-Shot-Caller-Production/blob/main/TESTING.md)
+<br>
 
 ## The Creative Features
 
