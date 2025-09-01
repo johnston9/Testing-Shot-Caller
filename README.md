@@ -11,7 +11,7 @@ A Film, TV, and Video Production Platform. The Platform includes Budgeting Softw
 "Shot caller" runs the Platform while the Budgeting software is held on “Shot Caller Production”. <br> 
 
 This is the Frontend for Shot Caller. You may find the testing here.
-[Shot Caller Testing](https://github.com/johnston9/Testing-Shot-Caller/blob/main/TESTING.md)
+[Testing](https://github.com/johnston9/Testing-Shot-Caller/blob/main/TESTING.md)
 <br>
 
 The Platform contain both the Creative and the Production sides of media production.<br>
@@ -33,6 +33,48 @@ If a User just purchases the Budgeting software they will also receive a URL by 
 There is no installation needed and no requirements for the app. If a User has any issues they can contact the site through the Contact Us page on "Shot caller Production".<br>
 
 # Table of Content
+  * [Purpose](#purpose)
+  * [Usage](#usage)
+  * [Installation and Requirements](#installation-and-requirements)
+- [Table of Content](#table-of-content)
+  * [Features “Shot Caller Production”](#features--shot-caller-production-)
+  * [Features “Shot Caller”](#features--shot-caller-)
+  * [The Production Features](#the-production-features)
+    + [User Management and Registration](#user-management-and-registration)
+    + [Scheduling](#scheduling)
+    + [Callsheets](#callsheets)
+  * [The Creative Features](#the-creative-features)
+    + [Scenes Pages](#scenes-pages)
+    + [Scene Page](#scene-page)
+    + [Character pages](#character-pages)
+    + [Locations pages](#locations-pages)
+    + [Moodboards](#moodboards)
+    + [Index Cards](#index-cards)
+    + [Index Shots](#index-shots)
+    + [Departments](#departments)
+  * [General Features](#general-features)
+    + [User Login/Logout](#user-login-logout)
+    + [User Change/Recover Password](#user-change-recover-password)
+    + [Security](#security)
+    + [Responsive Design](#responsive-design)
+  * [Features testing](#features-testing)
+  * [Permissions](#permissions)
+    + [Permission Types](#permission-types)
+  * [Information Architecture](#information-architecture)
+    + [Databases](#databases)
+    + [Database structure for Shot Caller Production - Model Tables by App](#database-structure-for-shot-caller-production---model-tables-by-app)
+    + [Database structure for Shot Caller - Model Tables by App](#database-structure-for-shot-caller---model-tables-by-app)
+  * [Languages Used - (Shot Caller and Shot Caller Production - Front and Backend)](#languages-used----shot-caller-and-shot-caller-production---front-and-backend-)
+  * [Frameworks, Databases, Libraries & Programs Used - (Shot Caller and Shot Caller Production - Front and Backend)](#frameworks--databases--libraries---programs-used----shot-caller-and-shot-caller-production---front-and-backend-)
+  * [Testing](#testing)
+  * [Deployment - (Shot Caller and Shot Caller Production - Front and Backend)](#deployment----shot-caller-and-shot-caller-production---front-and-backend-)
+    + [Development platform](#development-platform)
+    + [Repository](#repository)
+    + [Deploy to Heroku](#deploy-to-heroku)
+    + [Requirements for the Shot Caller DRF Backend](#requirements-for-the-shot-caller-drf-backend)
+    + [Dependencies for the Shot Caller React Frontend](#dependencies-for-the-shot-caller-react-frontend)
+  * [Credits - (Shot Caller and Shot Caller Production - Front and Backend)](#credits----shot-caller-and-shot-caller-production---front-and-backend-)
+
 
 ## Features “Shot Caller Production”
 Find these here. [Shot Caller Production Readme](https://github.com/johnston9/shot-caller-production/blob/main/README.md)
@@ -340,7 +382,7 @@ The React Dependencies and DRF Requirements can be found in the Deployment secti
 
 ## Testing
 - Find the complete testing here.
-[Shot Caller testing](https://github.com/johnston9/shot-caller/blob/main/TESTING.md)
+[Testing](https://github.com/johnston9/Testing-Shot-Caller/blob/main/TESTING.md)
 
 All functionality was tested as it was being built to ensure there were no errors that it did what it was meant to do and that all database errors were handled correctly. <br> 
 
