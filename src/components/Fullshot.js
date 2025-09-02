@@ -27,7 +27,7 @@ const Fullshot = ({image}) => {
                     {image && <> 
                     <div className='px-1 mb-3'>
                         <Image className={styles.ImagesFull} 
-                        src={image} alt="image" height="500"  />
+                        src={image} alt="image" height="1000"  />
                         </div>
                         </>
                     }
